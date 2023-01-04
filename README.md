@@ -1,11 +1,15 @@
 # Questgates-carbon-calculator-platform-templates
 
-Repository for managing notification templates with git and `@rocketmakers/orbit-template-http-repository`
+Repository for managing Blue Marble notification templates with git and `@rocketmakers/orbit-template-http-repository`
+
+# [`<provider>.json`](./docs/providerJson.md)
+
+# [Managing templates](./docs/managingTemplates.md)
 
 # [Layouts](./docs/layouts.md)
 
 # [Partials](./docs/partials.md)
 
-# [`<provider>.json`](./docs/providerJson.md)
+## Project Impact notification templates (./projectImpact)
 
-# [Managing templates](./docs/managingTemplates.md)
+## Questgates notification templates (./questgates)

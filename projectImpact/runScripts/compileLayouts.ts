@@ -46,7 +46,7 @@ async function run() {
 
   const serviceJsonSchema = JSON.parse(
     FileSystem.readFile(
-      'node_modules/@rocketmakers/orbit-template-http-repository/lib/serviceJsonSchema.json'
+      '../node_modules/@rocketmakers/orbit-template-http-repository/lib/serviceJsonSchema.json'
     )
   );
 
