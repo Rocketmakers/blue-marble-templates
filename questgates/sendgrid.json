@@ -1,5 +1,5 @@
 {
-  "$schema": "./node_modules/@rocketmakers/orbit-template-http-repository/lib/serviceJsonSchema.json",
+  "$schema": "../node_modules/@rocketmakers/orbit-template-http-repository/lib/serviceJsonSchema.json",
   "partials": {
     "header": {
       "path": "partials/html/header.handlebars"
