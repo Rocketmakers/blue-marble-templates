@@ -1,12 +1,10 @@
 {
   "name": "Questgates-carbon-calculator-platform-templates",
   "scripts": {
-    "gen-payload-schemas": "npx generate-schemas --serviceNames=sendgrid",
-    "test-sendgrid-templates": "npx validate-templates --serviceNames=sendgrid",
-    "compile-layouts": "ts-node runScripts/compileLayouts.ts --serviceName=sendgrid"
+    "gen-payload-schemas": "(cd projectImpact && npm run gen-payload-schemas) && (cd questgates && npm run gen-payload-schemas)",
+    "test-sendgrid-templates": "(cd projectImpact && npm run test-sendgrid-templates) && (cd questgates && npm run test-sendgrid-templates)",
+    "compile-layouts": "(cd projectImpact && npm run compile-layouts) && (cd questgates && npm run compile-layouts)"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@rocketmakers/orbit-template-http-repository": "2.0.2-4",
     "ajv": "^8.11.0",
@@ -19,5 +17,6 @@
     "@rocketmakers/shell-commands": "5.4.0",
     "@types/fs-extra": "8.0.1",
     "typescript-json-schema": "^0.50.1"
-  }
+  },
+  "license": "ISC"
 }
