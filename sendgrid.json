@@ -1,0 +1,47 @@
+{
+  "$schema": "./node_modules/@rocketmakers/orbit-template-http-repository/lib/serviceJsonSchema.json",
+  "partials": {
+    "bmLogo": {
+      "path": "shared/partials/html/bm-logo.handlebars"
+    },
+    "htmlHead": {
+      "path": "shared/partials/html/html-head.handlebars"
+    },
+    "piHeader": {
+      "path": "9c7727bd-42c4-4c81-b80c-a1afa75995ac/partials/html/header.handlebars"
+    },
+    "piFooter": {
+      "path": "9c7727bd-42c4-4c81-b80c-a1afa75995ac/partials/html/footer.handlebars"
+    },
+    "piLogo": {
+      "path": "9c7727bd-42c4-4c81-b80c-a1afa75995ac/partials/html/pi-logo.handlebars"
+    },
+    "qgHeader": {
+      "path": "dd4cf432-65fe-4483-a189-0bccba51f194/partials/html/header.handlebars"
+    },
+    "qgFooter": {
+      "path": "dd4cf432-65fe-4483-a189-0bccba51f194/partials/html/footer.handlebars"
+    },
+    "qgLogo": {
+      "path": "dd4cf432-65fe-4483-a189-0bccba51f194/partials/html/qg-logo.handlebars"
+    }
+  },
+  "layouts": {
+    "piInviteUser": {
+      "path": "9c7727bd-42c4-4c81-b80c-a1afa75995ac/layouts/inviteUser",
+      "templates": ["html", "txt"]
+    },
+    "piForgotPassword": {
+      "path": "9c7727bd-42c4-4c81-b80c-a1afa75995ac/layouts/forgotPassword",
+      "templates": ["html", "txt"]
+    },
+    "qgInviteUser": {
+      "path": "dd4cf432-65fe-4483-a189-0bccba51f194/layouts/inviteUser",
+      "templates": ["html", "txt"]
+    },
+    "qgForgotPassword": {
+      "path": "dd4cf432-65fe-4483-a189-0bccba51f194/layouts/forgotPassword",
+      "templates": ["html", "txt"]
+    }
+  }
+}
