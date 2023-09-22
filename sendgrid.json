@@ -27,19 +27,19 @@
     }
   },
   "layouts": {
-    "piInviteUser": {
+    "9c7727bd-42c4-4c81-b80c-a1afa75995ac-InviteUser": {
       "path": "9c7727bd-42c4-4c81-b80c-a1afa75995ac/layouts/inviteUser",
       "templates": ["html", "txt"]
     },
-    "piForgotPassword": {
+    "9c7727bd-42c4-4c81-b80c-a1afa75995ac-ForgotPassword": {
       "path": "9c7727bd-42c4-4c81-b80c-a1afa75995ac/layouts/forgotPassword",
       "templates": ["html", "txt"]
     },
-    "qgInviteUser": {
+    "dd4cf432-65fe-4483-a189-0bccba51f194-InviteUser": {
       "path": "dd4cf432-65fe-4483-a189-0bccba51f194/layouts/inviteUser",
       "templates": ["html", "txt"]
     },
-    "qgForgotPassword": {
+    "dd4cf432-65fe-4483-a189-0bccba51f194-ForgotPassword": {
       "path": "dd4cf432-65fe-4483-a189-0bccba51f194/layouts/forgotPassword",
       "templates": ["html", "txt"]
     }
