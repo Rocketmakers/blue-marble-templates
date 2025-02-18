@@ -1,9 +1,9 @@
 {
-  "name": "Questgates-carbon-calculator-platform-templates",
+  "name": "blue-marble-carbon-calculator-platform-templates",
   "scripts": {
-    "gen-payload-schemas": "(cd projectImpact && npm run gen-payload-schemas) && (cd questgates && npm run gen-payload-schemas)",
-    "test-sendgrid-templates": "(cd projectImpact && npm run test-sendgrid-templates) && (cd questgates && npm run test-sendgrid-templates)",
-    "compile-layouts": "(cd projectImpact && npm run compile-layouts) && (cd questgates && npm run compile-layouts)"
+    "gen-payload-schemas": "npx generate-schemas --serviceNames=sendgrid",
+    "test-sendgrid-templates": "npx validate-templates --serviceNames=sendgrid",
+    "compile-layouts": "ts-node runScripts/compileLayouts.ts --serviceName=sendgrid"
   },
   "dependencies": {
     "@rocketmakers/orbit-template-http-repository": "2.0.2-4",

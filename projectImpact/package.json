@@ -1,8 +1,0 @@
-{
-  "name": "Project-Impact-templates",
-  "scripts": {
-    "gen-payload-schemas": "npx generate-schemas --serviceNames=sendgrid",
-    "test-sendgrid-templates": "npx validate-templates --serviceNames=sendgrid",
-    "compile-layouts": "ts-node runScripts/compileLayouts.ts --serviceName=sendgrid"
-  }
-}
